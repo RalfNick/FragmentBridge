@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/first_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Fragment-1" />
+
+
+    <TextView
+        android:id="@+id/jump_social"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="跳转到新闻" />
+
+    <TextView
+        android:id="@+id/refresh_news"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="刷新新闻" />
+
+
+</FrameLayout>
